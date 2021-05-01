@@ -17,7 +17,7 @@ hr{
 }
 h1{
     color: #878ecd;
-    font-size: 500%;
+    font-size: 80px;
     margin-bottom: 0px;
     font-family: 'Sacramento', cursive;
 }
@@ -27,7 +27,7 @@ p{
 h2{
     padding-top: 50px;
     color: #878ecd;
-    font-size: 200%;
+    font-size: 32px;
     font-family: 'Montserrat', sans-serif;
 }
 h3{
