@@ -1,18 +1,79 @@
 body{
+    color: #40514E;
     text-align: center;
     margin: 0px;
     font-family: 'Merriweather', serif;
 }
+.skill-row{
+    margin:100px auto 200px auto;
+    width: 50%;
+    text-align: left;
+}
+hr{
+    border-color: #bbc5c5;
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 5%;
+}
 h1{
-    font-size: 70px;
+    color: #878ecd;
+    font-size: 5rem;
     margin-bottom: 0px;
     font-family: 'Sacramento', cursive;
 }
+p{
+    line-height: 2;
+}
 h2{
+    padding-top: 50px;
+    color: #878ecd;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 h3{
+    color: #878ecd;
+    /* font-size: 2.5rem; */
     font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: #4d5174;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px;
+}
+.contact-message{
+    padding: 30px;
+}
+.btn {
+    background: #b9bbdf;
+    background-image: -webkit-linear-gradient(top, #b9bbdf, #878ecd);
+    background-image: -moz-linear-gradient(top, #b9bbdf, #878ecd);
+    background-image: -ms-linear-gradient(top, #b9bbdf, #878ecd);
+    background-image: -o-linear-gradient(top, #b9bbdf, #878ecd);
+    background-image: linear-gradient(to bottom, #b9bbdf, #878ecd);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #dde7f2 ;
+    background-image: -webkit-linear-gradient(top, #dde7f2 , #b9bbdf);
+    background-image: -moz-linear-gradient(top, #dde7f2 , #b9bbdf);
+    background-image: -ms-linear-gradient(top, #dde7f2 , #b9bbdf);
+    background-image: -o-linear-gradient(top, #dde7f2 , #b9bbdf);
+    background-image: linear-gradient(to bottom, #dde7f2 , #b9bbdf);
+    text-decoration: none;
 }
 .top-container{
     background-color: #dde7f2;
@@ -20,14 +81,15 @@ h3{
     padding-top: 100px;
 }
 .middle-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    margin: 100px 0;
 }
 .bottom-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    background-color: #878ecd;
+    padding: 50px 0 20px;
+}
+.profile{
+    margin: 50px auto 50px auto;
+    width: 30%;
 }
 .bottom-cloud{
     position: absolute;
@@ -38,4 +100,19 @@ h3{
     position: absolute;
     right: 300px;
     top: 50px;
+}
+.profileImg{
+    border-radius: 100%;
+    width: 200px;
+}
+.skillsImg{
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+.achievement{
+    border-radius: 100%;
+    width: 25%;
+    float: right;
 }
